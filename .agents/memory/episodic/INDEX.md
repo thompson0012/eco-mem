@@ -1,17 +1,17 @@
 # Episodic memory
 
-定位：帶背景的具體經歷。回答「以前發生過什麼」。
-何時用：開始類似任務、踩過的坑可能再出現、需要參考上次怎麼做成 / 怎麼失敗。
-用途：讓智能體能參考經驗，而不是懷舊，也不是把聊天記錄當記憶。
-存哪些：情境、行動、結果、教訓。教訓是必填。
-不存：完整對話、可提煉成穩定事實的結論（那是 semantic）、可出師的流程正文（那是 procedural）、秘密。
-何時更新：不改寫歷史。新事件新檔。只在噪音、寫錯、敏感時刪。
+Duty: a concrete experience with context. Answers "what happened before."
+When to use: starting a similar task, a past failure may recur, or you need how the last attempt succeeded or failed.
+Purpose: so the agent can consult experience — not nostalgia, and not a chat archive treated as memory.
+Store: context, action, result, lesson. Lesson is required.
+Do not store: full chats, conclusions that can be distilled into stable facts (that is semantic), procedure bodies ready to graduate (that is procedural), secrets.
+When to update: do not rewrite history. A new event is a new file. Delete only when the entry is noise, wrong, or sensitive.
 
-CRUD 協議只活在 [`../../skills/eco-mem/SKILL.md`](../../skills/eco-mem/SKILL.md)。本屜特例：append-only。從經歷提煉事實時另寫 semantic，且必須過閘，避免一次偶然變成長期規律。
+CRUD lives only in [`../../skills/eco-mem/SKILL.md`](../../skills/eco-mem/SKILL.md). Drawer rule: append-only. Distill a fact into semantic as a separate write, and it must pass the gate, so a one-off does not become a long-term rule.
 
 ## Catalog
 
 | slug | one-liner | when | file |
 |------|-----------|------|------|
 
-目前 0 則。
+0 entries.

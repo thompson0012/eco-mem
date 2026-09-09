@@ -1,17 +1,17 @@
 # Semantic memory
 
-定位：脫離具體情節的事實與概念。回答「什麼是真的」。
-何時用：需要穩定知識——用戶偏好、專案事實、術語、領域規則、已確認關係。
-用途：讓下一次任務不必從頭再問同一件已確認的事。
-存哪些：已確認或已核驗的事實。每則必須有 `as_of`、`source`、`scope`。
-不存：猜測、一次情境下的權宜、經歷細節、流程步驟、秘密。
-何時更新：來源、時間、適用範圍變了就修訂；過期或被推翻就過期 / 刪除。`derived` 不得當硬約束。
+Duty: facts and concepts detached from a specific episode. Answers "what is true."
+When to use: when you need stable knowledge — user preferences, project facts, terms, domain rules, confirmed relationships.
+Purpose: so the next task does not have to re-ask something already confirmed.
+Store: confirmed or verified facts. Every entry must have `as_of`, `source`, and `scope`.
+Do not store: guesses, one-off workarounds, episode detail, procedure steps, secrets.
+When to update: revise when source, time, or scope changes; expire or delete when stale or contradicted. `derived` must not be used as a hard constraint.
 
-CRUD 協議只活在 [`../../skills/eco-mem/SKILL.md`](../../skills/eco-mem/SKILL.md)。本屜特例：一檔一事實；事實會過期。
+CRUD lives only in [`../../skills/eco-mem/SKILL.md`](../../skills/eco-mem/SKILL.md). Drawer rule: one fact per file; facts expire.
 
 ## Catalog
 
 | slug | one-liner | status | as_of | source | file |
 |------|-----------|--------|-------|--------|------|
 
-目前 0 則。
+0 entries.

@@ -1,17 +1,17 @@
 # Working memory
 
-定位：當下這張書桌。只服務正在做的事。
-何時用：任務開始、中途、跨 compaction / handoff。不是為了「記住用戶是誰」。
-用途：把目標、約束、進度、下一步留在可操作的桌面上，避免對話一長就丟。
-存哪些：當前目標、約束、進度、下一步、剛讀的路徑、工具結果摘要。
-不存：長期偏好、領域事實、完整對話、秘密、已結束任務。
-何時更新：目標 / 約束 / 進度一變就改同一則。任務結束：按 skill 晋升或刪除，不封存當歷史。
+Duty: the desk in use right now. It only serves the current work.
+When to use: task start, mid-task, across compaction / handoff. Not for "who the user is."
+Purpose: keep goal, constraints, progress, and next action on an operable desk so a long conversation does not drop them.
+Store: current goal, constraints, progress, next step, paths just read, tool-result summaries.
+Do not store: long-term preferences, domain facts, full chats, secrets, finished tasks.
+When to update: edit the same entry as soon as goal / constraints / progress change. At task end: promote or delete per the skill. Do not archive the desk as history.
 
-CRUD 協議只活在 [`../../skills/eco-mem/SKILL.md`](../../skills/eco-mem/SKILL.md)。本屜特例：檔案是熱的，結束必須消失。
+CRUD lives only in [`../../skills/eco-mem/SKILL.md`](../../skills/eco-mem/SKILL.md). Drawer rule: files are hot; they must be gone when the task ends.
 
 ## Catalog
 
-| slug | 正在做什麼 | updated | file |
-|------|------------|---------|------|
+| slug | what is in progress | updated | file |
+|------|---------------------|---------|------|
 
-目前 0 則。
+0 entries.
