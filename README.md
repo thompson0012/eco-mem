@@ -1,3 +1,6 @@
+# Update from 2026-09-12
+Eco-Mem already merged in [agents-stack](https://github.com/labs21-dev/agents-stack)
+
 # eco-mem
 
 Lightweight four-duty file memory for any agent. No database, no vector index, no runtime — markdown files an agent can already read and write.
